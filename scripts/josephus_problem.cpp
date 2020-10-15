@@ -2,13 +2,13 @@
 using namespace std;
 int main()
 {
-	int n,gap;
-	cout<<"Enter size of the array\n";
-	cin>>n;
-	cout<<"Enter gap between the values\n";
+	int k,gap;
+	cout<<"Enter the size of the array\n";
+	cin>>k;
+	cout<<"Enter the gap between the values\n";
 	cin>>gap;
 	vector<int> act;
-	for(int i=0;i<n;i++)
+	for(int i=0;i<k;i++)
 	{
 		act.push_back(i+1);
 	}
